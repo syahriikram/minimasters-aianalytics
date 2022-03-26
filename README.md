@@ -10,3 +10,6 @@
 - In Heroku application -> Settings -> Add 'python' as buildpack
 - Link Github Repo to Heroku application
 - Deploy the correct branch
+
+### Project Status:
+- <mark>NOT DEPLOYED</mark>
