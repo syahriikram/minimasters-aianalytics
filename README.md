@@ -3,7 +3,10 @@
 
 ### Summary / details:
 - Creates a basic website which supports prediction of DBS Stock price based on SGD Exchange Rate to USD, deployed using Heroku.
-- Model was developed using Linear Regression and minimal dataset**
+- Model was developed using Linear Regression and minimal dataset*
 
 ### Deployment steps:
+- Create Heroku application
+- In Heroku application -> Settings -> Add 'python' as buildpack
 - Link Github Repo to Heroku application
+- Deploy the correct branch
