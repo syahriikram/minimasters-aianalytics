@@ -12,4 +12,4 @@
 - Deploy the correct branch
 
 ### Project Status:
-- <mark>NOT DEPLOYED</mark>
+- **NOT DEPLOYED**
