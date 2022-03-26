@@ -36,6 +36,10 @@ print("Random Forest Classifier accuracy: {0} %".format(round(model.score(X,Y) *
 
 joblib.dump(model, "RF")
 
+print("Random Forest Classifier - Predict")
+model = joblib.load("RF")
+pred = model.predict([[20,1]])
+print(pred)
 
 # GradientBoostingClassifier
 model = GradientBoostingClassifier(min_samples_split=30,random_state=260322)
@@ -45,5 +49,10 @@ print(pred)
 cm = confusion_matrix(Y,pred)
 print(cm)
 print("Gradient Boosting Classifier accuracy: {0} %".format(round(model.score(X,Y) * 100, 2)))
+
+print("XGB Classifier - Predict")
+model = joblib.load("GBC")
+pred = model.predict([[20,1]])
+print(pred)
 
 joblib.dump(model, "GBC")
