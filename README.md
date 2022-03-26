@@ -1,4 +1,4 @@
-# NTU FlexiMasters - FlexiMasters in Business and Financial Analytics
+# NTU - FlexiMasters in Business and Financial Analytics
 ## CET023 - AI and Analytics in Finance, Credit and Related Risks
 
 ### Summary / details:
